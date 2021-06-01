@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1040295600412",
+    "firebase_url": "https://wesemarket-cdddb.firebaseio.com",
+    "project_id": "wesemarket-cdddb",
+    "storage_bucket": "wesemarket-cdddb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040295600412:android:cfa22e97fbd13a7b711ad9",
+        "android_client_info": {
+          "package_name": "com.wesemarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040295600412-7r7j6dnvs8pbpqkc63g8k79rjabprvnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7j0QrZYJh11leYmbzEPh0gOKo_Kyve_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040295600412-7r7j6dnvs8pbpqkc63g8k79rjabprvnc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1040295600412-7ru6tsrejpeuedubctk9pid78area90d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.weseMarket"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
