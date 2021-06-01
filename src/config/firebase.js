@@ -1,26 +1,26 @@
-import firebase from '@react-native-firebase/app';
 import { Platform } from 'react-native';
+import firebase from '@react-native-firebase/app';
 
 const androidCredentials = {
   clientId: '',
-  apiKey: 'AIzaSyCWsboCrNxb5pJrLCzl554ulKaZ6H3BUCs',
-  authDomain: 'wesemarket-cdddb.firebaseapp.com',
-  databaseURL: 'https://wesemarket-cdddb.firebaseio.com',
-  projectId: 'wesemarket-cdddb',
-  storageBucket: 'gs://wesemarket-cdddb.appspot.com',
-  messagingSenderId: '1040295600412',
-  appId: 'com.weseMarket',
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: '',
 };
 
 const iosCredentials = {
   clientId: '',
-  apiKey: 'AIzaSyCWsboCrNxb5pJrLCzl554ulKaZ6H3BUCs',
-  authDomain: 'wesemarket-cdddb.firebaseapp.com',
-  databaseURL: 'https://wesemarket-cdddb.firebaseio.com',
-  projectId: 'wesemarket-cdddb',
-  storageBucket: 'gs://wesemarket-cdddb.appspot.com',
-  messagingSenderId: '1040295600412',
-  appId: 'com.weseMarket',
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: '',
 };
 
 // Select the relevant credentials
@@ -29,7 +29,7 @@ const credentials = Platform.select({
   ios: iosCredentials,
 });
 const config = {
-  name: 'weseMarket',
+  name: '',
 };
 
 firebase.initializeApp(credentials, config);
